@@ -191,13 +191,3 @@
 <video src="video_file.mp4" controls></video>
 
 ```
-
-
-# Learn More about HTML from here:
-
-<div align="center">
-  <a href="https://youtu.be/EOwWXNBKtBM" >
-    <img src="http://img.youtube.com/vi/EOwWXNBKtBM/0.jpg" alt="HTML Crash Course" />
-  </a>
-</div>
-icon
