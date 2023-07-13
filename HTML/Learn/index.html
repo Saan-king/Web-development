@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+       <meta charset="UTF-8">
+        <meta name="author" content="Sathya Anand">
+        <meta name="description" content="This page contains all the things I am learning in HTML">
+
+       <title>Web Page</title> 
+
+       <link rel="icon" type="image/s-icon" href="html5.png">
+
+       <link rel="stylesheet" href="main.css" type="text/css">
+
+    </head>
+
+    <body>
+        <h1>Goals for the year</h1>
+
+        <img src="img/download.jpg" alt="summa" height="260" width="400">
+
+
+        <hr>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#html">Learn html</a>
+                        
+                    </li>
+                    <li><a href="#add">Check my address</a></li>
+                 
+                    </li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </nav>
+      <table>
+        <caption>Daily Schedule</caption>
+        <tr>
+            <th>Time</th>
+            <th>Activity</th>
+        </tr>
+        <tr>
+            <td>
+                <time datetime ="8:00"> 8 AM</time>-<time datetime="12:00">12PM</time>
+            </td>
+            <td>Write code</td>
+        </tr>
+        <tr>
+            <td colspan="2">Free time </td>
+        </tr>
+        <tr>
+            <td rowspan="2">Other timings</td>
+            <td>Workout</td>
+        </tr>
+        <tr>
+            <td>sleep </td>
+        </tr>
+      </table>
+
+        <hr>
+        <h2>Dei</h2>
+       
+        <h3>Epdi irka!</h3>
+        <br> &nbsp; Na nalla irkanumnu than ninaikiren..
+        <h4>Tell me how are you?</h4>
+        <br>padi nalla padi.. learn in MDN <abbr title="Microsoft developer Network">
+            <a href="https://developer.mozilla.org/">MDN</a>
+            </abbr>
+<hr>
+            <section id="html">
+        <h2>I am also plan to vacation</h2>
+        <p>My name is Sathya Anand..Woah!</p>
+        <p>I am ready to learn html</p>
+        <img src="img/HTML logo.png" alt="HTML logo" title="HTML image" height="300px" width="300px">
+       <br>
+        <em>I am working hard</em>
+        I need break <br>
+        <strong>Summa Irraaa</strong>
+        <hr>
+        <h3>&lt;&lt;&lt;Visit Places &gt;&gt;&gt;</h3>
+        <ol>
+        <li>Paris</li>
+        <li>Sweden</li>
+        <li>France</li>
+    </ol>
+    </section>
+<section id="add">
+            <address>
+            Dei, NRT STREET
+        </address>
+        <p>..Canada</p>
+        <p>..US</p>
+        <figure>
+        <img src="img/download (1).jpg" alt="Caribean" width="200">
+        <figcaption>This is a beach</figcaption>
+    </figure>
+        <section>
+        <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold!</strong></dd>
+
+            <dt>South Pole</dt>
+            <dd>This is also cold</dd>
+
+            <dt>Mountain</dt>
+            <dd>These are also cold</dd>
+        </dl>
+        
+        &lt;&lt;&lt; &copy;<a href="about.html" target="_blank">Sathya Anand </a> &gt;&gt;&gt;
+
+        <ul>
+            <li>Download an <a href="html5.png" download>HTML favicon</a></li>
+            <li> Contact me at <a href="mailto:msathyaanand@gmail.com">my email address</a></li>
+            <li><a href="tel:+919944511723"> Phone number</a></li>
+            <li><a href="https://www.google.com" target="_blank">Google on newtab</a></li>
+        </ul>
+        <hr>
+        <article id="contact">
+            <h2>Contact Me</h2>
+            <p>I like to hear from you</p>
+
+            <form action="https://httpbin.org/get" method="get">
+            <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Sathya" autocomplete="on" required >
+            </p>
+            <p>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Anand" autocomplete="on" required >
+            </p>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="secret"  required >
+            </p>
+            </p>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="888-999-1234" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"  required >
+            </p>
+            
+            <p>
+                <label for="decade">Favorite Decade</label>
+                <input type="number" name="decade" id="decade" min="1960" max="2030" step="10" value="1980">
+
+            </p>
+
+            <p>
+                <label for="coffee">Favorite Coffee:</label>
+                <select name="coffee" id="coffee" multiple size="3">
+                 <optgroup label="Coffees">
+                    <option value="regular coffee">Regular Coffee</option>
+                    <option value="iced coffee">Iced</option>
+                </optgroup>
+                <optgroup label="Espresso Drinks">
+                    <option value="cappucino" selected>Cappucino</option>
+                    <option value="Latte">Latte</option>
+                    <option value="americano">Americano</option>
+                    <option value="others">Others</option>
+                </optgroup>
+                </select>
+            </p>
+
+            <fieldset>
+                <legend>What is your favorite food></legend>
+                <p>
+                    <input type="radio" name="food" id="tacos" value="tacos">
+                    <label for="tacos">Tacos</label>
+                <p>
+                    <input type="radio" name="food" id="Pizza" value="Pizza">
+                    <label for="Pizza">Pizza</label>
+                <p>
+                    <input type="radio" name="food" id="Other" value="Other">
+                    <label for="Other">Other</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Do you have pets?</legend>
+                <p>
+                    <input type="checkbox" name="pets" id="dog" value="dog">
+                    <label for="dog">Dog</label>
+                <p>
+                    <input type="checkbox" name="pets" id="cat" value="cat">
+                    <label for="cat">Cat</label>
+                <p>
+                    <input type="checkbox" name="pets" id="fish" value="fish">
+                    <label for="fish">Fish</label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Send me a note</legend>
+                <label for="message">Your message:</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+            <button type="reset">Reset</button>
+
+
+            </form>
+        </article>
+
+
+        <hr>
+        &lt;&lt;&lt; &copy;<a href="about.html">Sathya Anand </a> &gt;&gt;&gt;
+        <p>
+            <a href="/">Back to home</a>
+        </p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </section>
+    </body>
+
+</html>
